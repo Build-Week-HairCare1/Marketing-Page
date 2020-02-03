@@ -1,0 +1,440 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 2.3rem;
+  padding: 1%;
+}
+.navbar h1 {
+  margin-left: 1%;
+  font-size: 4rem;
+  color: black;
+}
+.navbar nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 0.5%;
+  width: 30%;
+}
+.navbar nav a {
+  margin-left: 5%;
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+  font-family: 'Russo One', sans-serif;
+}
+.navbar nav a:hover {
+  color: white;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+body {
+  /* Style the submit button with a specific background color etc */
+  /* When moving the mouse over the submit button, add a darker green color */
+  /* Add a background color and some padding around the form */
+}
+body div {
+  background-image: url("pics/hairsalon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+body div header {
+  display: flex;
+  justify-content: center;
+}
+body div header section {
+  width: 50%;
+  padding-top: 4.5%;
+  padding-bottom: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+}
+body div header section div {
+  width: 90%;
+  background-color: rgba(108, 65, 72, 0.75);
+  padding: 1%;
+  color: whitesmoke;
+  font-size: 3rem;
+  font-family: 'Russo One', sans-serif;
+  border-radius: 10px;
+}
+body div header section div h1 {
+  margin-top: 2%;
+  font-size: 3.5rem;
+  color: white;
+}
+body div header section div p {
+  font-size: 2.5rem;
+  font-family: 'Russo One', sans-serif;
+}
+body div header section div h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Russo One', sans-serif;
+}
+body div header section div .buttons {
+  display: flex;
+  justify-content: center;
+}
+body div header section div .buttons button {
+  background-color: white;
+  border-radius: 8px;
+  color: #6c4148;
+  padding: 3%;
+  width: 150px;
+  font-size: 2.3rem;
+  text-align: center;
+  margin: 4%;
+  padding: 2%;
+  font-family: 'Russo One', sans-serif;
+}
+body div header section div .buttons button:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+body .customer {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+body .customer .one {
+  width: 40%;
+}
+body .customer .one img {
+  width: 100%;
+  height: 45vh;
+}
+body .customer .two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+body .customer .two p {
+  margin: 2%;
+  padding: 1%;
+  margin-bottom: none;
+  font-size: 1.5rem;
+}
+body .customer .two button {
+  background-color: #6c4148;
+  border-radius: 8px;
+  color: white;
+  padding: 3%;
+  width: 150px;
+  font-size: 2.3rem;
+  text-align: center;
+  padding: 1%;
+}
+body .customer .two button:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+body .stylist {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+body .stylist .one {
+  width: 40%;
+}
+body .stylist .one img {
+  width: 100%;
+  height: 45vh;
+}
+body .stylist .two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+body .stylist .two p {
+  margin: 1.5%;
+  margin-bottom: none;
+  font-size: 1.5rem;
+}
+body .stylist .two button {
+  background-color: #6c4148;
+  border-radius: 8px;
+  color: white;
+  padding: 3%;
+  width: 150px;
+  font-size: 2.3rem;
+  text-align: center;
+  padding: 1%;
+}
+body .stylist .two button:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+body .about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+body .about div {
+  margin-bottom: 3%;
+}
+body .about .aboutSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+body .about .aboutSection h2 {
+  font-size: 1.9rem;
+}
+body .about .aboutSection h3 {
+  font-size: 1rem;
+}
+body .about .aboutSection div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 2px solid black;
+  background-color: #6c4148;
+}
+body .about .aboutSection div h2 {
+  width: 100%;
+  padding: 15%;
+  color: white;
+}
+body .contactUs {
+  display: flex;
+  justify-content: center;
+}
+body input[type="text"],
+body select,
+body textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 8px;
+  /* Add a top margin */
+  margin-bottom: 20px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+body input[type="submit"] {
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+}
+body input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}
+body .container3 {
+  border-radius: 5px;
+  background-color: rgba(108, 65, 72, 0.5);
+  padding: 30px;
+}
+body .mainform {
+  width: 500px;
+}
+body .contact {
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+body .contact .mainform {
+  width: 50%;
+  margin: 2%;
+}
+body .contact .contactImg {
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 50%;
+}
+body .contact .contactImg img {
+  width: 100%;
+  height: 50vh;
+}
