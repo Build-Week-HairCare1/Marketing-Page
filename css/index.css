@@ -179,6 +179,11 @@ p {
   margin-top: 0.5%;
   width: 30%;
 }
+@media (max-width: 500px) {
+  .navbar nav {
+    width: 50%;
+  }
+}
 .navbar nav a {
   margin-left: 5%;
   text-decoration: none;
@@ -204,6 +209,11 @@ body div {
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
+@media (max-width: 500px) {
+  body div {
+    background-size: 100vw 100vh;
+  }
+}
 body div header {
   display: flex;
   justify-content: center;
@@ -218,6 +228,11 @@ body div header section {
   text-align: center;
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  body div header section {
+    width: 90%;
+  }
+}
 body div header section div {
   width: 91%;
   background-color: rgba(108, 65, 72, 0.75);
@@ -227,19 +242,39 @@ body div header section div {
   font-family: 'Russo One', sans-serif;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  body div header section div {
+    width: 100%;
+  }
+}
 body div header section div h1 {
   margin-top: 2%;
   font-size: 3.5rem;
   color: white;
 }
+@media (max-width: 500px) {
+  body div header section div h1 {
+    font-size: 3rem;
+  }
+}
 body div header section div p {
   font-size: 2.5rem;
   font-family: 'Russo One', sans-serif;
+}
+@media (max-width: 500px) {
+  body div header section div p {
+    font-size: 2.5rem;
+  }
 }
 body div header section div h2 {
   color: white;
   font-size: 2.5rem;
   font-family: 'Russo One', sans-serif;
+}
+@media (max-width: 500px) {
+  body div header section div h2 {
+    font-size: 2.5rem;
+  }
 }
 body div header section div .buttons {
   display: flex;
@@ -262,13 +297,30 @@ body div header section div .buttons button:hover {
   color: black;
   border: 1px solid black;
 }
+@media (max-width: 500px) {
+  body div header section div .buttons button {
+    font-size: 2.5rem;
+  }
+}
 body .customer {
   display: flex;
   justify-content: center;
   margin: 2%;
 }
+@media (max-width: 500px) {
+  body .customer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 body .customer .one {
   width: 40%;
+}
+@media (max-width: 500px) {
+  body .customer .one {
+    width: 100%;
+  }
 }
 body .customer .one img {
   width: 100%;
@@ -279,6 +331,11 @@ body .customer .two {
   flex-direction: column;
   align-items: center;
   width: 60%;
+}
+@media (max-width: 500px) {
+  body .customer .two {
+    width: 100%;
+  }
 }
 body .customer .two p {
   margin: 2%;
@@ -306,8 +363,20 @@ body .stylist {
   justify-content: center;
   margin: 2%;
 }
+@media (max-width: 500px) {
+  body .stylist {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
 body .stylist .one {
   width: 40%;
+}
+@media (max-width: 500px) {
+  body .stylist .one {
+    width: 100%;
+  }
 }
 body .stylist .one img {
   width: 100%;
@@ -318,6 +387,11 @@ body .stylist .two {
   flex-direction: column;
   align-items: center;
   width: 60%;
+}
+@media (max-width: 500px) {
+  body .stylist .two {
+    width: 100%;
+  }
 }
 body .stylist .two p {
   margin: 1.5%;
@@ -429,10 +503,20 @@ body .contact .mainform {
   width: 50%;
   margin: 2%;
 }
+@media (max-width: 500px) {
+  body .contact .mainform {
+    width: 100%;
+  }
+}
 body .contact .contactImg {
   margin-left: 2%;
   margin-top: 2%;
   width: 50%;
+}
+@media (max-width: 500px) {
+  body .contact .contactImg {
+    display: none;
+  }
 }
 body .contact .contactImg img {
   width: 100%;
