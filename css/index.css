@@ -184,6 +184,9 @@ p {
     width: 50%;
   }
 }
+.navbar nav #home {
+  color: #6c4148;
+}
 .navbar nav a {
   margin-left: 5%;
   text-decoration: none;
@@ -234,7 +237,7 @@ body div header section {
   }
 }
 body div header section div {
-  width: 91%;
+  width: 80%;
   background-color: rgba(108, 65, 72, 0.75);
   padding: 1%;
   color: whitesmoke;
@@ -324,7 +327,7 @@ body .customer .one {
 }
 body .customer .one img {
   width: 100%;
-  height: 45vh;
+  height: 50vh;
 }
 body .customer .two {
   display: flex;
@@ -341,7 +344,7 @@ body .customer .two p {
   margin: 2%;
   padding: 1%;
   margin-bottom: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 body .customer .two button {
   background-color: #6c4148;
@@ -380,7 +383,7 @@ body .stylist .one {
 }
 body .stylist .one img {
   width: 100%;
-  height: 45vh;
+  height: 50vh;
 }
 body .stylist .two {
   display: flex;
@@ -396,7 +399,7 @@ body .stylist .two {
 body .stylist .two p {
   margin: 1.5%;
   margin-bottom: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 body .stylist .two button {
   background-color: #6c4148;
@@ -419,6 +422,7 @@ body .about {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 3%;
 }
 body .about div {
   margin-bottom: 3%;
@@ -487,6 +491,7 @@ body .container3 {
   border-radius: 5px;
   background-color: rgba(108, 65, 72, 0.5);
   padding: 30px;
+  height: 50vh;
 }
 body .mainform {
   width: 500px;
