@@ -308,7 +308,6 @@ body img {
 }
 @media (max-width: 500px) {
   .customer .two {
-    width: 60%;
     width: 100%;
   }
 }
@@ -475,6 +474,12 @@ input[type="submit"] {
   background-color: black;
   color: white;
 }
+@media (max-width: 800px) {
+  input[type="submit"] {
+    padding: 1%;
+    margin-top: 0;
+  }
+}
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
   background-color: white;
@@ -523,6 +528,10 @@ input[type="submit"]:hover {
   width: 100%;
   height: 50vh;
 }
+body {
+  width: 100vw;
+  margin-left: 0.85%;
+}
 .transnav {
   background-color: rgba(0, 0, 0, 0);
   border: rgba(0, 0, 0, 0);
@@ -534,13 +543,37 @@ input[type="submit"]:hover {
   padding-left: 3%;
   padding-right: 2%;
 }
+@media (max-width: 800px) {
+  .test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .test a {
   font-size: 3.5rem;
   font-family: 'Playfair Display', serif;
   color: black;
 }
+@media (max-width: 500px) {
+  .test a {
+    font-size: 3rem !important;
+  }
+}
 .test li a {
   font-size: 2.5rem !important;
+}
+@media (max-width: 500px) {
+  .test li a {
+    font-size: 2rem !important;
+  }
 }
 .test li .home {
   color: #dc2360;
@@ -573,23 +606,49 @@ header h1 {
 .firstThree .row .card {
   width: 300px;
 }
+@media (max-width: 800px) {
+  .firstThree .row .card {
+    width: 260px;
+  }
+}
 .firstThree .row .card img {
   width: 300px;
   height: 300px;
 }
+@media (max-width: 800px) {
+  .firstThree .row .card img {
+    width: 260px;
+    height: 260px;
+  }
+}
 .firstThree .row .card .card-content h1 {
   font-size: 3rem;
   text-align: center;
+}
+@media (max-width: 800px) {
+  .firstThree .row .card .card-content h1 {
+    font-size: 2rem;
+  }
 }
 .firstThree .row .card .card-content p {
   font-size: 1.5rem;
   text-align: center;
   color: #dc2360;
 }
+@media (max-width: 800px) {
+  .firstThree .row .card .card-content p {
+    font-size: 1rem;
+  }
+}
 .secondThree {
   display: flex;
   justify-content: center;
   width: 100vw;
+}
+@media (max-width: 800px) {
+  .secondThree {
+    width: 100vw;
+  }
 }
 @media (max-width: 500px) {
   .secondThree {
@@ -604,16 +663,37 @@ header h1 {
 .secondThree .row .card {
   width: 300px;
 }
+@media (max-width: 800px) {
+  .secondThree .row .card {
+    width: 260px;
+  }
+}
 .secondThree .row .card img {
   width: 300px;
   height: 300px;
+}
+@media (max-width: 800px) {
+  .secondThree .row .card img {
+    width: 260px;
+    height: 260px;
+  }
 }
 .secondThree .row .card .card-content h1 {
   font-size: 3rem;
   text-align: center;
 }
+@media (max-width: 800px) {
+  .secondThree .row .card .card-content h1 {
+    font-size: 2rem;
+  }
+}
 .secondThree .row .card .card-content p {
   font-size: 1.5rem;
   text-align: center;
   color: #dc2360;
+}
+@media (max-width: 800px) {
+  .secondThree .row .card .card-content p {
+    font-size: 1rem;
+  }
 }
