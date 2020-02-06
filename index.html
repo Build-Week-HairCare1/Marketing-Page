@@ -1,0 +1,202 @@
+<!doctype html>
+
+<html lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+
+    <title>HairCare</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link href="css/index.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+
+</head>
+
+<body>
+
+    <div class="bg" style="background-image: url('pics/hero.jpg');">
+
+
+        <nav class="transnav">
+            <div class="nav-wrapper test">
+                <a href="#!" class="brand-logo left">Hair+Care</a>
+                <ul class="right">
+                    <li><a href="index.html" class="home right">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <h1>Find your perfect stylist</h1>
+        </header>
+        <div class="buttons">
+
+            <button class="btn waves-effect waves-light right pink" type="submit" name="action">Find a Stylist
+                <i class="material-icons right">send</i>
+            </button><br><br>
+
+            <button class="btn waves-effect waves-light right black" type="submit" name="action">I am a Stylist
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+    </div>
+
+
+    <section class="customer" id="customer">
+        <div class="one">
+            <img src="pics/checkout.jpg" alt="customer">
+        </div>
+        <div class="two">
+            <br>
+            <h2>
+                Customer
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel dignissim nisl. Integer tempus mauris
+                sit amet mi dignissim varius. Nam a lectus nulla. Vestibulum a tellus augue. Cras aliquet cursus
+                ullamcorper. Curabitur vel odio volutpat nibh aliquet tincidunt. Nulla tincidunt elit eget neque
+                maximus, in pulvinar purus hendrerit. Proin sagittis leo vitae pulvinar aliquet. Integer vulputate eu
+                augue eget pharetra.
+            </p>
+            <button class="btn waves-effect waves-light pink" type="submit" name="action">Sign Up
+                <i class="material-icons">send</i>
+            </button>
+            <br>
+        </div>
+    </section>
+
+    <section class="stylist">
+        <div class="two">
+            <br>
+            <h2>Stylist
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel dignissim nisl. Integer tempus mauris
+                sit amet mi dignissim varius. Nam a lectus nulla. Vestibulum a tellus augue. Cras aliquet cursus
+                ullamcorper. Curabitur vel odio volutpat nibh aliquet tincidunt. Nulla tincidunt elit eget neque
+                maximus, in pulvinar purus hendrerit. Proin sagittis leo vitae pulvinar aliquet. Integer vulputate eu
+                augue eget pharetra.
+            </p>
+            <button class="btn waves-effect waves-light pink" type="submit" name="action">Sign Up
+                <i class="material-icons">send</i>
+            </button>
+            <br>
+        </div>
+        <div class="one">
+            <img src="pics/stylistjpg.jpg" alt="Stylist">
+        </div>
+    </section>
+
+  
+
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                fullWidth: true,
+                indicators: true
+            }).height(500);
+        });
+    </script>
+
+    <div class="carousel carousel-slider">
+        <a href="#three!" class="carousel-item" ><img src="pics/pinkhair.jpg"></a>
+        <a href="#six!" class="carousel-item" ><img src="pics/orange.jpg"></a>
+        <a href="#two!" class="carousel-item" ><img src="pics/barber.jpg"></a>
+        <a href="#eight!"class="carousel-item" ><img src="pics/older.jpg"></a>
+
+    </div>
+
+    <style>
+    .indicator-item {
+        padding: 5px;
+    }
+    </style>
+    
+    <section class="about">
+
+        <span class="aboutSection">
+            <div class="signUp">
+                <h2>Sign Up</h2>
+
+            </div>
+
+            <div class="createProfile">
+                <h2>Create Profile</h2>
+            </div>
+
+            <div class="search">
+                <h2>Search for Stylists</h2>
+            </div>
+            <div class="upload">
+                <h2>Upload Photos</h2>
+            </div>
+            <div class="review">
+                <h2>Leave Reviews</h2>
+            </div>
+        </span>
+    </section>
+
+
+    <span class="contactUs">
+        <h2>Contact Us</h2>
+    </span>
+
+    <section class="contact">
+        <div class="contactImg">
+            <img src="pics/black&white.jpg">
+        </div>
+
+        <div class="mainform">
+
+            <div class="container3">
+                <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email address..">
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Copyright HairCare 2020</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
