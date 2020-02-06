@@ -255,7 +255,7 @@ body img {
   }
 }
 .bg .buttons {
-  padding-top: 10%;
+  padding-top: 5%;
   margin-right: 18%;
   display: flex;
   flex-direction: column;
@@ -284,7 +284,7 @@ body img {
   }
 }
 .customer .one {
-  width: 50%;
+  width: 40%;
 }
 @media (max-width: 500px) {
   .customer .one {
@@ -297,17 +297,18 @@ body img {
 }
 @media (max-width: 500px) {
   .customer .one img {
-    height: 55vh;
+    height: 50vh;
   }
 }
 .customer .two {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 60%;
 }
 @media (max-width: 500px) {
   .customer .two {
+    width: 60%;
     width: 100%;
   }
 }
@@ -340,7 +341,7 @@ body img {
   }
 }
 .stylist .one {
-  width: 50%;
+  width: 40%;
 }
 @media (max-width: 500px) {
   .stylist .one {
@@ -353,14 +354,14 @@ body img {
 }
 @media (max-width: 500px) {
   .stylist .one img {
-    height: 55vh;
+    height: 50vh;
   }
 }
 .stylist .two {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 60%;
 }
 @media (max-width: 500px) {
   .stylist .two {
@@ -543,6 +544,15 @@ input[type="submit"]:hover {
 }
 .test li .home {
   color: #dc2360;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
 }
 .firstThree {
   margin-top: 4%;
