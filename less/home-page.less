@@ -6,8 +6,9 @@ body {
        
 
         @media @mobile {
-            width: 100%;
+            width: 100vw;
             height: 50vh;
+            margin-right: 0;
         }
     }
 }
@@ -79,18 +80,22 @@ body {
     header {
         height: 19vh;
         display: flex;
-        margin-right: 3.5%;
+        margin-right: 5%;
         padding-top: 30%;
+        
+        @media @desktop {
+            margin-right: 8.5%!important;
+        }
 
        @media @tablet {
            margin-top: 7%;
-           margin-right: 6%;
+           margin-right: 6%!important;
 
        }
 
         @media @mobile {
             padding-top: 7%;
-            margin: 0;
+            margin: 0!important;
             align-items: center;
         }
 
@@ -98,12 +103,17 @@ body {
         align-items: flex-end;
 
         h1 {
-            font-size: 4rem;
+            font-size: 5rem!important;
             font-family: @title;
             color: black;
 
+            @media @desktop {
+                font-size: 3.3rem!important;
+            }
+    
+
             @media @tablet {
-                font-size: 2.5rem;
+                font-size: 2.5rem!important;
             }
 
             @media @mobile {
@@ -148,7 +158,11 @@ body {
     margin: 2%;
 
     .one {
-        width: 55%;
+        width: 60%;
+
+        @media @desktop {
+            width: 50%;
+        }
 
         @media @tablet {
             width: 60vw;
@@ -161,7 +175,12 @@ body {
 
         img {
             width: 100%;
-            height: 50vh;
+            height: 500px;
+
+            @media @desktop {
+                height: 400px;
+            }
+
             @media @tablet {
                 
                 height: 340px;
@@ -171,7 +190,12 @@ body {
 
     .two {
         .column();
-        width: 45%;
+        width: 50%;
+
+        @media @desktop {
+            width: 50%;
+        }
+        
 
         @media @mobile {
             width: 100%;
@@ -186,11 +210,15 @@ body {
             margin: 2%;
             padding: 2%;
             margin-bottom: none;
-            font-size: 1.8rem;
+            font-size: 2.5rem!important;
             font-family: @main;
+            @media @desktop {
+                font-size: 2rem!important;
+            }
+
 
             @media @tablet {
-                font-size: 1.5rem;
+                font-size: 1.5rem!important;
             }
 
             @media @mobile {
@@ -210,7 +238,11 @@ body {
     }
 
     .one {
-        width: 55%;
+        width: 60%;
+
+        @media @desktop {
+            width: 50%;
+        }
 
         @media @tablet {
             width: 60vw;
@@ -224,7 +256,12 @@ body {
 
         img {
             width: 100%;
-            height: 60vh;
+            height: 500px;
+            @media @desktop {
+                height: 400px;
+            }
+
+            
             @media @mobile {
                 width: 100%;
                 height: 50vh;
@@ -234,7 +271,11 @@ body {
 
     .two {
         .column();
-        width: 45%;
+        width: 50%;
+
+        @media @desktop {
+            width: 50%;
+        }
 
         @media @mobile {
             width: 100%;
@@ -248,11 +289,15 @@ body {
         p {
             margin: 1.5%;
             margin-bottom: none;
-            font-size: 1.8rem;
+            font-size: 2.5rem!important;
             padding: 2%;
             font-family: @main;
+            @media @desktop {
+                font-size: 2rem!important;
+            }
+
             @media @tablet {
-                font-size: 1.5rem;
+                font-size: 1.5rem!important;
             }
         }
         button {
@@ -268,6 +313,10 @@ body {
     .column();
     text-align: center;
     margin-top: 0;
+
+    @media @mobile {
+        width: 100vw!important;
+    }
 
     div {
         margin-bottom: 3%;
@@ -318,6 +367,10 @@ body {
 
 .carousel.carousel-slider {
     height: 450px;
+
+    @media @desktop {
+        height: 60vh;
+    }
     
     @media @mobile{
         display: none;
