@@ -327,12 +327,12 @@ body img {
 }
 @media (max-width: 1000px) {
   .customer .one {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (max-width: 800px) {
   .customer .one {
-    width: 60vw;
+    width: 50vw;
   }
 }
 @media (max-width: 500px) {
@@ -362,7 +362,7 @@ body img {
 }
 @media (max-width: 1000px) {
   .customer .two {
-    width: 40%;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
@@ -378,17 +378,17 @@ body img {
   margin: 2%;
   padding: 2%;
   margin-bottom: none;
-  font-size: 2.5rem !important;
+  font-size: 2rem!important;
   font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 1000px) {
   .customer .two p {
-    font-size: 1.8rem !important;
+    font-size: 1.5rem !important;
   }
 }
 @media (max-width: 800px) {
   .customer .two p {
-    font-size: 1.45rem !important;
+    font-size: 1.2rem !important;
   }
 }
 @media (max-width: 500px) {
@@ -413,12 +413,12 @@ body img {
 }
 @media (max-width: 1000px) {
   .stylist .one {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (max-width: 800px) {
   .stylist .one {
-    width: 60vw;
+    width: 50vw;
   }
 }
 @media (max-width: 500px) {
@@ -454,7 +454,7 @@ body img {
 }
 @media (max-width: 1000px) {
   .stylist .two {
-    width: 40%;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
@@ -469,18 +469,18 @@ body img {
 .stylist .two p {
   margin: 1.5%;
   margin-bottom: none;
-  font-size: 2.5rem !important;
+  font-size: 2rem!important;
   padding: 2%;
   font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 1000px) {
   .stylist .two p {
-    font-size: 1.8rem !important;
+    font-size: 1.5rem !important;
   }
 }
 @media (max-width: 800px) {
   .stylist .two p {
-    font-size: 1.45rem !important;
+    font-size: 1.2rem !important;
   }
 }
 @media (max-width: 500px) {
@@ -594,9 +594,15 @@ input[type="submit"] {
   background-color: black;
   color: white;
 }
+@media (max-width: 1000px) {
+  input[type="submit"] {
+    padding: 3%;
+    margin-top: 0;
+  }
+}
 @media (max-width: 800px) {
   input[type="submit"] {
-    padding: 1%;
+    padding: 3%;
     margin-top: 0;
   }
 }
