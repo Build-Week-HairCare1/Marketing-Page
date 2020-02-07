@@ -241,8 +241,8 @@ body img {
 }
 .bg header {
   height: 19vh;
-  margin-right: 5%;
-  padding-top: 30%;
+  margin-right: 6%;
+  padding-top: 27%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -267,7 +267,7 @@ body img {
   }
 }
 .bg header h1 {
-  font-size: 5rem!important;
+  font-size: 4.5rem !important;
   font-family: 'Playfair Display', serif;
   color: black;
 }
@@ -327,7 +327,7 @@ body img {
 }
 @media (max-width: 1000px) {
   .customer .one {
-    width: 50%;
+    width: 60%;
   }
 }
 @media (max-width: 800px) {
@@ -351,7 +351,7 @@ body img {
 }
 @media (max-width: 800px) {
   .customer .one img {
-    height: 340px;
+    height: 60vh;
   }
 }
 .customer .two {
@@ -362,7 +362,7 @@ body img {
 }
 @media (max-width: 1000px) {
   .customer .two {
-    width: 50%;
+    width: 40%;
   }
 }
 @media (max-width: 500px) {
@@ -383,12 +383,12 @@ body img {
 }
 @media (max-width: 1000px) {
   .customer .two p {
-    font-size: 2rem!important;
+    font-size: 1.8rem !important;
   }
 }
 @media (max-width: 800px) {
   .customer .two p {
-    font-size: 1.5rem !important;
+    font-size: 1.45rem !important;
   }
 }
 @media (max-width: 500px) {
@@ -413,7 +413,7 @@ body img {
 }
 @media (max-width: 1000px) {
   .stylist .one {
-    width: 50%;
+    width: 60%;
   }
 }
 @media (max-width: 800px) {
@@ -435,6 +435,11 @@ body img {
     height: 400px;
   }
 }
+@media (max-width: 800px) {
+  .stylist .one img {
+    height: 60vh;
+  }
+}
 @media (max-width: 500px) {
   .stylist .one img {
     width: 100%;
@@ -449,7 +454,7 @@ body img {
 }
 @media (max-width: 1000px) {
   .stylist .two {
-    width: 50%;
+    width: 40%;
   }
 }
 @media (max-width: 500px) {
@@ -470,12 +475,12 @@ body img {
 }
 @media (max-width: 1000px) {
   .stylist .two p {
-    font-size: 2rem!important;
+    font-size: 1.8rem !important;
   }
 }
 @media (max-width: 800px) {
   .stylist .two p {
-    font-size: 1.5rem !important;
+    font-size: 1.45rem !important;
   }
 }
 @media (max-width: 500px) {
@@ -538,7 +543,7 @@ body img {
   color: black;
 }
 .carousel.carousel-slider {
-  height: 450px;
+  height: 90vh!important;
 }
 @media (max-width: 1000px) {
   .carousel.carousel-slider {
@@ -549,6 +554,9 @@ body img {
   .carousel.carousel-slider {
     display: none;
   }
+}
+.carousel.carousel-slider img {
+  height: 90vh;
 }
 @media (max-width: 800px) {
   .carousel.carousel-slider img {
